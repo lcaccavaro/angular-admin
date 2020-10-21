@@ -1,0 +1,35 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>Lucas Andrade Caccavaro</h2>
+            <h4>lcaccavaro@gmail.com</h4>
+        </div>
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHhuVu1EyS_bQ/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=cGiMNrHOV5UJZdAc9mRBVWUC-pZ2b8RiP2iUq-5YAk8" alt="profile image"/>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader >Pages</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/'>
+        <mat-icon>dvr</mat-icon>
+        Dashboard
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/users'>
+        <mat-icon>import_contacts</mat-icon>
+        Users
+    </a>
+    <!--
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/posts'>Posts</a>
+    -->
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader >System</h2>
+
+    
+    <a mat-list-item routerLinkActive="list-item-active" routerLink='/contacts'>
+        <mat-icon>exit_to_app</mat-icon>
+        Sign out
+    </a>    
+
+</mat-nav-list>
